@@ -61,6 +61,11 @@ ENI = (MHIN + Normalized Poverty Rate + Normalized UR) / 3
 5. All datasets are merged based on county names.
 6. The final merged dataset is displayed in an interactive HTML table and exported as a CSV file.
 
+## Files
+1. acs_nces.py is the script for joining the census data to the NCES data
+2. data.py is the script for obtaining all the needed background data
+3. calc.py is the script that exceutes the above two files and calculates the ENI
+
 ## Output
 - An interactive HTML table displaying the merged data
 - A CSV file named 'final_merged_data.csv' containing all the merged data
