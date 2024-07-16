@@ -1,0 +1,31 @@
+# Ignore the .env file containing sensitive information
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore virtual environment directories
+venv/
+env/
+*.egg-info/
+
+# Ignore compiled Python files
+*.so
+*.dylib
+
+# Ignore temporary files created by editors
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
