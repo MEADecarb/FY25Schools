@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from IPython.display import display, HTML
+from IPython.display import FileLink
 
 # Define the API endpoint
 url = "https://api.census.gov/data/2022/acs/acs5?get=NAME,B19013_001E,B17001_001E,B17001_002E&for=county:*&in=state:24"
@@ -21,6 +22,10 @@ df["Median Household Income"] = pd.to_numeric(df["Median Household Income"])
 df["Total Population"] = pd.to_numeric(df["Total Population"])
 df["Population below poverty level"] = pd.to_numeric(df["Population below poverty level"])
 
+# Save the DataFrame to a CSV file
+csv_file = "/content/data.csv"
+df.to_csv(csv_file, index=False)
+
 # Display the DataFrame with scrolling enabled
 display(HTML(df.to_html(notebook=True, table_id="dataframe", border=0)))
 
@@ -34,3 +39,6 @@ display(HTML("""
     }
 </style>
 """))
+
+# Display the link to download the CSV file
+display(FileLink(csv_file, result_html_prefix="Click here to download the CSV file: "))
