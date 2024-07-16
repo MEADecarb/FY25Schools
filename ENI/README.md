@@ -9,10 +9,10 @@ This Python script analyzes education-related data for Maryland counties, combin
 Normalize the median household income data on a scale from 1 to 10, where 1 represents the highest income (lowest need) and 10 represents the lowest income (highest need).
 Normalization Formula: 
 MHIn = 10 x (1 - ( MHI - MHImin/ MHImax-MHImin)
--Where:
--MHIn = Median Household Income for the LEA
--MHImin = Minimum Median Household Income among all LEAs
--MHImax= Maximum Median Household Income among all LEAs
+- Where:
+- MHIn = Median Household Income for the LEA
+- MHImin = Minimum Median Household Income among all LEAs
+- MHImax= Maximum Median Household Income among all LEAs
 ### Percentage of Population Below Poverty Line (Poverty Rate) Normalization
 Normalize the poverty rate data on a scale from 1 to 10, where 1 represents the lowest poverty rate (lowest need) and 10 represents the highest poverty rate (highest need).
 Normalization Formula: 
