@@ -1,4 +1,5 @@
-# Maryland Education Data Analysis
+# Economic Need Index Calculation
+
 
 ## Overview
 This Python script analyzes education-related data for Maryland counties, combining information from multiple sources to create a comprehensive dataset. The script calculates an Economic Need Index (ENI) for each county based on various economic indicators.
@@ -35,12 +36,6 @@ This Python script analyzes education-related data for Maryland counties, combin
 ## Output
 - An interactive HTML table displaying the merged data
 - A CSV file named 'final_merged_data.csv' containing all the merged data
-
-## Potential Uses
-This script could be useful for:
-- Education researchers studying the relationship between economic factors and school districts
-- Policymakers looking at resource allocation for Maryland schools
-- Data journalists investigating educational disparities in Maryland
 
 ## Note
 Make sure you have the required libraries installed and proper API access for the NCES and Census data. The unemployment data in this script is hardcoded since MSA does not have an API (https://msa.maryland.gov/msa/mdmanual/01glance/economy/html/unemployrates.html). 
