@@ -37,7 +37,7 @@ df_census["NAME"] = df_census["NAME"].str.replace(", Maryland", "", regex=False)
 # Inspect columns of the census DataFrame
 print("Census Data Columns:", df_census.columns)
 
-# Unemployment Rate Data as a multi-line string
+# Unemployment Rate Data as a multi-line string, from https://msa.maryland.gov/msa/mdmanual/01glance/economy/html/unemployrates.html
 data = """
 2020\t2021\t2022\t2023
 Maryland\t6.5%\t5.3%\t3.2%\t2.1%
