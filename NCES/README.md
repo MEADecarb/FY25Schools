@@ -2,7 +2,7 @@
 
 This subfolder contains a Python script to fetch, display, and export data on school districts in Maryland from the National Center for Education Statistics (NCES) API.
 
-##URL
+## URL
 https://data-nces.opendata.arcgis.com/datasets/nces::school-district-characteristics-2022-23/about
 
 ## Files
