@@ -42,13 +42,21 @@ To set up the environment and run the script, follow these steps:
 
 ## Script Details
 
-### `fetch_maryland_school_districts.py`
+### `opendata.py`
 
 This script performs the following steps:
 1. Fetches data from the NCES API on school districts in Maryland.
 2. Converts the data into a pandas DataFrame.
 3. Displays the data in an interactive, scrollable table using IPython widgets.
 4. Exports the data to a CSV file (`maryland_school_districts.csv`).
+
+
+### 'mdschools.py'
+This scriptL 
+1.  Fetches data from the NCES API on school locations in Maryland.
+2. Converts the data into a pandas DataFrame.
+3. Displays the data in an interactive, scrollable table using IPython widgets.
+
 
 #### Key Sections of the Script:
 
