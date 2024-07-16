@@ -2,6 +2,9 @@ import requests
 import pandas as pd
 from IPython.display import display, HTML
 
+# School District Characteristics 2022-23 https://data-nces.opendata.arcgis.com/datasets/nces::school-district-characteristics-2022-23/about
+
+
 # Define the URL for the API query
 url = "https://nces.ed.gov/opengis/rest/services/School_District_Boundaries/EDGE_ADMINDATA_SCHOOLDISTRICTS_SY2223/MapServer/1/query"
 
